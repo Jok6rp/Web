@@ -1,0 +1,134 @@
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/*Barra no header*/
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 47px;
+    background-color: white;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #111111;
+}
+
+#nav li a:hover:not(.active) {
+    background-color: #7c8687;
+}
+
+#nav .active {
+    background-color: #4CAF50;
+}
+/*Corpo da Página*/
+#conteudo {
+    display: inline;
+    background-image: url("Back/Back1.jpg");
+    background-size: cover;
+    height: 615px;
+}
+.imagem{
+    margin-top: 100px;
+    float: left;
+}
+#Name1{
+
+}
+#sinopse{
+    color: white;
+    height: 200px;
+    width: 300px;
+    float: right;
+    background-color: transparent;
+    margin-top: 100px;
+}
+#trailer{
+    display: none;
+    height: 99vh;
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+}
+#show{
+    height: 100%;
+    width: 100%;
+}
